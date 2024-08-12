@@ -1,3 +1,35 @@
-<h1>Pages#projects</h1>
-<p>Find me in app/views/pages/projects.html.erb</p>
-<h2>Projects</h2>
+<div class="container">
+  <h1>My Projects</h1>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <%= image_tag "imagen1.jpeg", class: "card-img-top", alt: "Project 1" %>
+        <div class="card-body">
+          <h5 class="card-title">Project 1</h5>
+          <p class="card-text">Project 1 description</p>
+          <a href="#" class="btn btn-primary custom-btn">Ver más</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <%= image_tag "imagen2.jpeg", class: "card-img-top", alt: "Project 2" %>
+        <div class="card-body">
+          <h5 class="card-title">Project 2</h5>
+          <p class="card-text">Project 2 description</p>
+          <a href="#" class="btn btn-primary custom-btn">Ver más</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <%= image_tag "imagen3.jpeg", class: "card-img-top", alt: "Project 3" %>
+        <div class="card-body">
+          <h5 class="card-title">Project 3</h5>
+          <p class="card-text">Project 3 description</p>
+          <a href="#" class="btn btn-primary custom-btn">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
